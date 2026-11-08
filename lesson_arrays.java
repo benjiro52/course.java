@@ -1,8 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.ArrayList;
 
-class lesson_array {
+class lesson_arrays {
     public static void main(String[] args) {
         int a[] = new int[5]; // 5 нулей: [0, 0, 0, 0, 0]
         int b[] = {1, 2, 3, 4, 5}; // сразу с значениями
@@ -23,6 +22,13 @@ class lesson_array {
         System.out.println(Arrays.toString(copy));
         System.out.println("__________________________");
 
-        
+        int[][] grid = new int[3][4]; // 3 строки, 4 столбца
+        grid[1][2] = 7;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                System.out.print(grid[i][j] + " ");
+            }
+        }
+        System.out.println();
     } 
 }
