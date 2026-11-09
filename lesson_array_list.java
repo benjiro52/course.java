@@ -38,4 +38,5 @@ class lesson_array_list {
 
         ArrayList<ArrayList<Integer>> grid = new ArrayList<>();
     }
+    // do i need to learn java?
 } 
