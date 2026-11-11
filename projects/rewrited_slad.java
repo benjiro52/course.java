@@ -1,7 +1,6 @@
 package projects; // для папки
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Collections;
 
 class Product {
